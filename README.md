@@ -19,3 +19,8 @@ You can try the mobile app [here](https://drive.google.com/drive/folders/1Q1RKRh
 
 [![Watch the video](https://i.sstatic.net/Vp2cE.png)](https://youtu.be/vt5fpE0bzSY)
 
+
+
+https://github.com/user-attachments/assets/8d7d35b1-a152-4e5a-8471-848f78844360
+
+
