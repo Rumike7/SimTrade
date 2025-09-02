@@ -17,5 +17,5 @@ Tools : Spring boot,  React native, Docker, Kafka, Redis, Nginx, Postgres, Times
 
 You can try the mobile app [here](https://drive.google.com/drive/folders/1Q1RKRhH3ZB7fnpGkyQumxEq39Bz8m0-b?usp=drive_link)
 
-![Simtrade demo](https://www.youtube.com/watch?v=9GaeKjzzlf0)
+[![Watch the video](https://i.sstatic.net/Vp2cE.png)](https://youtu.be/vt5fpE0bzSY)
 
