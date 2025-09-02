@@ -1,24 +1,19 @@
 # SimTrade
-SimTrade is an application that simulate a real-time stock trading platform where users can connect, buy/sell stocks, lend/borrow money,view live market data, and compete on leaderboards
+SimTrade is a a high frequency trading simulator, which reflects many real market specifications, where can buy or sell stocks, lend or borrow money, view live market data, and compete on a weekly leaderboard.
 
-It's build with the stack React Native / Spring boot.
+Features:
+- Real-time broadcasting of prices based on the ratio of current bids/asks and market volatility
+- Real-time trading charts and candlesticks
+- Management of multiple trades, whether they are market or limit orders 
+- Microservice architecture to serve the diverse services needed such as market data handling (time-series data), scheduled or queued order processing, and leaderboard caching
+- Weekly leaderboard ranking based on percentage profit/loss
+- Loan management with interest and repayment tracking 
+- A 3D dice game 
+- Secure authentication and user management
+- An AI chat assistant 
+  
+Tools : Spring boot,  React native, Docker, Kafka, Redis, Nginx, Postgres, Timescaledb, ThreeJs, Typescript
 
-You can download the app mobile from [here]().
 
-The backend has a multi-service architercture with principals service :
-- [user_service]() which manage account, authentification, and leaderboard
-- [order_service]() which hold the stock trading, transaction and loan management
-- [market_service]() which deal with the market data in real time
+You can try the mobile app [here](https://drive.google.com/drive/folders/1Q1RKRhH3ZB7fnpGkyQumxEq39Bz8m0-b?usp=drive_link)
 
-Each service API is accessible at /{service_name}/api.
-
-I am currently writing the useful documentation of the each service. Let's me know if there is any finance-API you want be added to the app.
-
-## Run the backend locally
-```
-docker login 
-docker compose pull # or docker-compose pull if it docker compose version 1 or it's on windows
-docker compose up
-```
-## Download the mobile 
-You can download the mobile application from [here](). This apk is directly connect to my hosted backend. 
